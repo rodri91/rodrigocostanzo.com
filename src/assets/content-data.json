@@ -1,0 +1,68 @@
+{
+  "experiences": [{
+    "time": "Currently working",
+    "company": {
+      "name": "Olapic, Inc.",
+      "linkUrl": "http://"
+    },
+    "position": "Integration Engineer",
+    "description": "Helping to integrate Olapic main product into customers websites. Making focus on performance, cross-browser compatibility and zero issues implementation."
+  }, {
+    "time": "2013 - 2015",
+    "company": {
+      "name": "Savant Pharm SA.",
+      "linkUrl": "http://"
+    },
+    "position": "Assistant Web Developer.",
+    "description": "Building a 360 internal review platform for the company employees. Delivering results to HR managers in a efficient, quick and transparent way. The platform was built in PHP."
+  }],
+  "skills": [{
+    "title": "JS.",
+    "blocks": [{
+      "title": "Frameworks.",
+      "content": ["React", "Vue.js", "Preact", "Svelte", "Angular"]
+    }, {
+      "title": "Data layer.",
+      "content": ["Redux", "GraphQL"]
+    }, {
+      "title": "Flavors.",
+      "content": ["Typescript", "ECMAScript 6"]
+    }, {
+      "title": "Backend frameworks.",
+      "content": ["Next.js", "Express", "Firebase"]
+    }, {
+      "title": "Testing.",
+      "content": ["Jest", "Puppeteer", "Storybook", "Cypress"]
+    }, {
+      "title": "Other tools.",
+      "content": ["Progressive Web Apps", "Lodash", "Moment", "Underscore", "Axios", "Prettier", "ESLint"]
+    }]
+  }, {
+    "title": "CSS.",
+    "blocks": [{
+      "title": "Key features.",
+      "content": ["Flexbox", "Grid", "CSS Animations"]
+    }, {
+      "title": "Processors.",
+      "content": ["SASS", "LESS", "PostCSS"]
+    }, {
+      "title": "Frameworks.",
+      "content": ["Bootstrap", "Ant Design", "Foundation", "Tailwind CSS"]
+    }, {
+      "title": "Methodologies",
+      "content": ["BEM", "OOCSS", "SMACSS"]
+    }, {
+      "title": "CSS-in-JS.",
+      "content": ["Styled components", "Emotion", "CSS Modules", "Styled system"]
+    }]
+  }, {
+    "title": "Other skills.",
+    "blocks": [{
+      "title": "Agile.",
+      "content": ["Daily standup", "team review", "Sprint planning", "Retrospective meetings", "JIRA"]
+    }, {
+      "title": "Other.",
+      "content": ["Git version control"]
+    }]
+  }]
+}

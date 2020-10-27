@@ -1,0 +1,33 @@
+@keyframes slide-in {
+	0% {
+		opacity: 0;
+		transform: translateY(-90%) rotate3d(1, 0, 0, 90deg);
+	}
+
+	50% {
+		opacity: 1;
+		transform: translateY(10%) rotate3d(1, 0, 0, -20deg);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translateY(0) rotate3d(1, 0, 0, 0deg);
+	}
+}
+
+@keyframes slide-out {
+	0% {
+		opacity: 1;
+		transform: translateY(0) rotate3d(1, 0, 0, 0deg);
+	}
+
+	50% {
+		opacity: 0;
+		transform: translateY(120%) rotate3d(1, 0, 0, -90deg);
+	}
+
+	100% {
+		opacity: 0;
+		transform: translateY(100%) rotate3d(1, 0, 0, -90deg);
+	}
+}
