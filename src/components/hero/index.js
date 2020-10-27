@@ -3,7 +3,7 @@ import {keyframes} from 'styled-components'
 
 import WavingHand from '../../assets/images/waving-hand-emoji.png'
 
-import RotatingPhrase from '../rotatingPhrase';
+import RotatingPhrase from '../../containers/rotatingPhrase'
 
 const MainTitle = styled.h1`
   margin: 0 0 30px;
