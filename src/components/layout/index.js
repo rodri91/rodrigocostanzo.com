@@ -29,7 +29,7 @@ const SkillsContainer = styled.div`
   }
 
   @media screen and (min-width: 1024px) {
-    margin: 110px;
+    margin: 110px 0;
     grid-gap: 0 70px;
   }
 `
