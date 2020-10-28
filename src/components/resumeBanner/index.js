@@ -17,7 +17,7 @@ const Wrapper = styled.div`
 `
 
 const Copy = styled.span`
-  width: 70%
+  width: 70%;
   margin-bottom: 20px;
   font-style: normal;
   font-weight: normal;
