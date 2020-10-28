@@ -41,6 +41,8 @@ const WaveAnimation = keyframes`
 `
 
 const Emoji = styled.img`
+  vertical-align: top;
+  
   &:hover {
     animation: ${WaveAnimation} 2s ease infinite;
   }
