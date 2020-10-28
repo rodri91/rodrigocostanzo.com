@@ -19,7 +19,7 @@ const Copy = styled.span`
 const Footer = () => (
   <Wrapper>
     <Copy>Made with</Copy>
-    <img src={PreactLogo} alt="preact logo" />
+    <img height="25" width="25" src={PreactLogo} alt="preact logo" />
   </Wrapper>
 )
 
