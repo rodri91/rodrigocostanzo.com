@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-const SkillTitle = styled.h4`
+const SkillTitle = styled.span`
   margin-bottom: 20px;
   font-style: normal;
   font-weight: 500;

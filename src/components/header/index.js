@@ -10,7 +10,7 @@ const Wrapper = styled.header`
 
 const Header = () => (
 	<Wrapper>
-		<img src={Logo} />
+		<img height="50" width="50" src={Logo} alt="site logo"/>
 		<Button text="Contact me" />
 	</Wrapper>
 );
