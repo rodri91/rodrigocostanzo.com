@@ -8,10 +8,10 @@ const Wrapper = styled.header`
 	justify-content: space-between;
 `
 
-const Header = () => (
+const Header = ({openMailContact}) => (
 	<Wrapper>
 		<img height="50" width="50" src={Logo} alt="site logo"/>
-		<Button text="Contact me" />
+		<Button text="Contact me" handleClick={openMailContact} />
 	</Wrapper>
 );
 

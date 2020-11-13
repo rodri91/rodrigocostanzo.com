@@ -19,9 +19,16 @@ const App = () => {
 		);
 	}
 
+	const openMailContact = () => {
+		window.open(
+			'mailto:rodrigocostanzo@gmail.com?subject=Contact from rodrigocostanzo.com',
+			'_blank' // <- This is what makes it open in a new window.
+		);
+	}
+
 	return (
 		<Layout 
-			header={<Header />}
+			header={<Header openMailContact={openMailContact} />}
 			hero={<Hero />}
 			skills={<Skills />}
 			experiences={<Experiences />}
