@@ -18,8 +18,8 @@ const Content = styled.span`
   text-transform: uppercase;
 `
 
-const Button = ({text}) => (
-  <Wrapper>
+const Button = ({text, handleClick}) => (
+  <Wrapper onClick={handleClick}>
     <Content>
       {text}
     </Content>

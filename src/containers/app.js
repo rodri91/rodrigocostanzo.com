@@ -9,16 +9,27 @@ import Social from '../components/social'
 import Footer from '../components/footer'
 import Layout from '../components/layout'
 
-const App = () => (
-	<Layout 
-		header={<Header />}
-		hero={<Hero />}
-		skills={<Skills />}
-		experiences={<Experiences />}
-		resumeBanner={<ResumeBanner />}
-		social={<Social />}
-		footer={<Footer />}
-	/>
-)
+import {RESUME_URL} from '../constants'
+
+const App = () => {
+	const goToResumeLink = () => {
+		window.open(
+			RESUME_URL,
+			'_blank'
+		);
+	}
+
+	return (
+		<Layout 
+			header={<Header />}
+			hero={<Hero />}
+			skills={<Skills />}
+			experiences={<Experiences />}
+			resumeBanner={<ResumeBanner goToResumeLink={goToResumeLink} />}
+			social={<Social />}
+			footer={<Footer />}
+		/>
+	)
+}
 
 export default App;

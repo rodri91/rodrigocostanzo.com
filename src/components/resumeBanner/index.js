@@ -23,12 +23,17 @@ const Copy = styled.span`
   font-weight: normal;
   font-size: 18px;
   text-align: center;
+
+  @media screen and (min-width: 768px) {
+    margin-bottom: 0;
+    text-align: left;
+  }
 `
 
-const ResumeBanner = () => (
+const ResumeBanner = ({goToResumeLink}) => (
   <Wrapper>
     <Copy>Still looking for a PDF? Go, download it.</Copy>
-    <Button text="download my resume" />
+    <Button text="download my resume" handleClick={goToResumeLink} />
   </Wrapper>
 )
 
