@@ -1,5 +1,4 @@
-import styled from 'styled-components'
-import {keyframes} from 'styled-components'
+import styled, { keyframes } from 'styled-components'
 
 import WavingHand from '../../assets/images/waving-hand-emoji.png'
 
@@ -51,7 +50,7 @@ const Emoji = styled.img`
 const Hero = () => (
   <>
     <MainTitle>
-      Hi! <Emoji width="65" height="65" src={WavingHand} alt="" /> <br/>
+      Hi! <Emoji width="65" height="65" src={WavingHand} alt="" /> <br />
       I'm Rodri.
     </MainTitle>
     <SubTitle>Front-end developer based in Argentina.</SubTitle>

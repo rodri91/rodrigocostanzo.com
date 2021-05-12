@@ -2,6 +2,14 @@
   "experiences": [{
     "time": "Currently working",
     "company": {
+      "name": "Mercado Libre",
+      "linkUrl": "https://www.linkedin.com/company/mercadolibre/"
+    },
+    "position": "Frontend engineer",
+    "description": "Developing user-facing and internal tools that helps to prevent the selling of not-allowed or fake items in the platform."
+  }, { 
+    "time": "2015 - 2020",
+    "company": {
       "name": "Olapic, Inc.",
       "linkUrl": "https://www.linkedin.com/company/olapic/"
     },

@@ -26,9 +26,8 @@ const SkillColumn = ({data: {title, blocks}}) => {
       {block.content.map((text, i, arr) => {
         if(arr.length - 1 === i) {
           return `${text}.`
-        } else {
-          return `${text}, `
-        }
+        } 
+        return `${text}, `
       })}
     </SkillDetailBlock>
   ));
